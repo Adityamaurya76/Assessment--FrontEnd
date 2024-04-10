@@ -1,0 +1,81 @@
+.parentdiv {
+    margin: 0px, auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+
+}
+.left{
+    width: 70%;
+    
+    justify-content: space-evenly;
+    margin: 10px, 10px;
+
+}
+.right{
+    width: 20%;
+    background-color: yellow;
+    
+}
+.leftchild{
+    text-align: left;
+}
+.content_center{
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+   margin-bottom: 30px;
+}
+#rightleftchild{
+    margin: 0px, auto;
+    width: 70%;
+}
+.rightleftchildchild{
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+
+#whole_left_flex{
+    display: flex;
+    justify-content: space-around;
+}
+.h4{
+    color: rgb(255, 19, 23);
+    font-size: 1.5rem;
+}
+.h4:hover{
+    cursor: pointer;
+}
+p{
+    color: black;
+    size: 40px;
+}
+
+.Heading{
+  font-size: 2rem;
+  
+}
+
+.content{
+    font-size: 1.2rem;
+}
+.content:hover{
+    cursor: pointer;
+  color: red;
+}
+.right_text{
+    font-size: 19px;
+    
+}
+.right_text:hover{
+    cursor: pointer;
+    color: red;
+}
+.sub_text{
+    color: rgb(126, 124, 124);
+}
